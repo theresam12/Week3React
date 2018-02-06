@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.navbar{
+  background-color: white;
+  height: 50px;
+  padding-top: 20px;
+  font: white;
+}
+.App-header {
+  background-color: purple;
+  height: 270px;
+  padding-top: 90px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.myFoot {
+  padding-top: 250px;
+  font-style: italic;
+  background-color: pink
+}
+
+@keyframes App-logo-spin {
+  from { transform: skew(100deg); }
+  to { transform: skew(360deg); }
+}
